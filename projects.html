@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Projects</title>
+        <link href="styles.css" rel="stylesheet">
+        <script type="text/javascript" src="myjs.js"></script>
+    </head>
+    <header>
+        <div class="navigation-div">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </header>
+    <body>
+        <section id="dosepy">
+            <img src="https://github.com/LuisOlivaresJ/Dosepy/blob/main/docs/assets/LOGOTIPO_DOSEPY.png?raw=true"
+            alt="dosepy_logo"
+            class="example_logo">
+            <p>
+                An open source desktop application to perform radiochromic film dosimetry.
+            </p>
+            <p>
+                <a href="https://dosepy.readthedocs.io/en/latest/intro.html">
+                    <button type="button" class="button-project">
+                        Documentation
+                    </button>
+                </a>
+                <a href="https://github.com/LuisOlivaresJ/Dosepy">
+                    <button type="button" class="button-project">
+                        Repository
+                    </button>
+                </a>
+            </p>
+            <figure>
+                <img src="https://github.com/LuisOlivaresJ/Dosepy/blob/main/docs/assets/Calibration_tab.png?raw=true"
+                alt="Dosepy_example"
+                class="project_example"
+                id="dosepy_img">
+                <button onclick="changeDpImg();" class="button-project" id="next_dp_img">Next</button>
+            </figure>
+            <p>
+                Dosepy is intended to be an accessible tool for medical physicist in radiation oncology to perform patient-specific dose verification based on film measurements.
+            </p>
+            <p>
+                The software works with scanned films (in TIFF format) and a DICOM file (typically exported from a treatment planning system). A 2D gamma analysis can be performed in order to evaluate the similarity between the measured (scanned film) and the planed (DICOM file) dose distributions.
+            </p>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Pyportal</h2>
+            <p>
+                Pyportal is an app for performing <a href="https://www.aapm.org/pubs/reports/detail.asp?docid=278">TG-307</a> quality assurance (QA) tests for routine QA of (R) Varian EPID systems.
+            </p>
+            <a href="https://github.com/LuisOlivaresJ/Pyportal">
+                <button type="button" class="button-project">
+                    Repository
+                </button>
+            </a>
+            <figure>
+                <img src="https://github.com/LuisOlivaresJ/Pyportal/blob/main/docs/images/Positioning.PNG?raw=true"
+                alt="" class="project_example">
+
+            </figure>
+            <p>
+                <strong>Features</strong>
+            </p>
+
+            <p>
+                <ul>
+                    <li>SQL database storage for constancy analysis.</li>
+                    <li>One-click fast test assessment.</li>
+                </ul>
+            </p>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Relative dose 1d</h2>
+            <p>
+                Python package to read 1-dimensional dose profile from a text file to perform subtraction and gamma analysis.
+            </p>
+            <a href="https://relative-dose-1d.readthedocs.io/en/latest/intro.html">
+                <button type="button" class="button-project">
+                    Documentation
+                </button>
+            </a>
+            <a href="https://github.com/LuisOlivaresJ/relative_dose_1d">
+                <button type="button" class="button-project">
+                    Repository
+                </button>
+            </a>
+            <figure>
+                <img src="https://relative-dose-1d.readthedocs.io/en/latest/_images/GUI_v015.PNG"
+                alt="relative_dose_1d_logo"
+                class="project_example">
+            </figure>
+            <hr>
+        </section>
+
+        <section>
+            <h2>
+                Contributions to open source
+            </h2>
+            <p>
+                <ul>
+                    <li>
+                        <a href="https://omg-dosimetry.readthedocs.io/en/latest/">
+                            <img src="https://github.com/jfcabana/omg_dosimetry/blob/OMG_master/src/omg_dosimetry/OMG_Logo.png?raw=true" alt="omg_logo" class="open_source_logo">
+                        </a>
+                    <li>
+                        <a href="https://pylinac.readthedocs.io/en/latest/">
+                            <img src="https://storage.googleapis.com/pylinac_demo_files/Pylinac-GREEN.png" alt="pylinac_logo" class="open_source_logo">
+                        </a>
+                    </li>
+                </ul>
+            </p>
+            <hr>
+        </section>
+        <footer>
+            <span>
+                <p>&copy; 2024 Luis Olivares. All rights reserved. Made with HTML, CSS and JavaScript</p>
+            </span>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+</html>
