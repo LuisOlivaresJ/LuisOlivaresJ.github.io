@@ -2,10 +2,6 @@ body {
     background-color: #ebfaeb;
 }
 
-header {
-    position: fixed;
-}
-
 h1 {
     font-size: 4em;
     color: #2eb82e;
