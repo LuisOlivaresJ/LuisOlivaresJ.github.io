@@ -1,6 +1,6 @@
 var nameimages = [
-    "https://github.com/LuisOlivaresJ/Dosepy/blob/main/docs/assets/Calibration_tab.png?raw=true",
-    "https://github.com/LuisOlivaresJ/Dosepy/blob/main/docs/assets/main_window.PNG?raw=true"
+    "images/Calibration_tab.jpg",
+    "images/main_window.jpg",
 ];
 
 

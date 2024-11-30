@@ -60,7 +60,6 @@ section {
 /* Style the profile image*/
 #GH-profile-picture {
     width: 250px;
-    height: 250px;
     border-radius: 50%;
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -134,7 +133,7 @@ projects page
 }
 
 .project_example {
-    max-width: 80%;
+    width: 60%;
     border-radius: 3%;
     padding: 1.5em;
 
