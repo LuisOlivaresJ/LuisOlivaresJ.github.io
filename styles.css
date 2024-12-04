@@ -1,6 +1,5 @@
 body {
-    background-color: #ebfaeb;
-    
+    background-color: #ebfaeb; 
     padding: 0px;
     margin: 0px;
 }
@@ -8,7 +7,7 @@ body {
 section {
     margin-top: 7em;
     margin-left: 3em;
-    max-width: 90%;
+    
 }
 
 h1 {
@@ -45,6 +44,13 @@ footer {
     margin-bottom: 2em;
 }
 
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Add a black background color to the top navigation */
 .navigation-div{
     background-color: #333;
@@ -75,11 +81,13 @@ footer {
     color: white;
 }
 
-.container {
-    width: 100%;
-    border: 3px solid red;
+.contenedor {
+    
+    /*border: 3px solid red;*/
     padding: 0;
     margin: 0;
+
+    max-width: 50em;
 }
 
 
