@@ -1,13 +1,5 @@
 body {
-    background-color: #ebfaeb; 
-    padding: 0px;
-    margin: 0px;
-}
-
-section {
-    margin-top: 7em;
-    margin-left: 3em;
-    
+    background-color: #ebfaeb;
 }
 
 h1 {
@@ -25,37 +17,17 @@ h3 {
     color: #2eb82e;
 }
 
-ul li{
-    display: inline;
-    margin: 1em;
-  }
-
-p {
-    font-size: 1.2em;
-}
-
-hr {
-    margin-top: 2em;
-}
-
-footer {
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
 .main_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /*justify-content: left;*/
 }
 
 /* Add a black background color to the top navigation */
 .navigation-div{
     background-color: #333;
     overflow: hidden;
-    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -82,33 +54,40 @@ footer {
 }
 
 .contenedor {
-    
-    /*border: 3px solid red;*/
-    padding: 0;
-    margin: 0;
-
+    margin: 20px;
     max-width: 50em;
+}
+
+section {
+    margin-top: 7em;
+    margin-left: 3em;
+    max-width: 90%;
 }
 
 
 /* Style the profile image*/
 #GH-profile-picture {
     width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 #body-div {
     display: grid;
     grid-template-columns: 300px auto;
-    
     margin-top: 7em;
     margin-bottom: 7em;
 }
 
-.grid-item-name {
+#body-div {
+    display: flex;
+    flex-direction: column;
+}
 
+.grid-item-name {
+    display: flex;
+    flex-direction: row;
     text-align: left;
     margin-top: 1em;
 }
@@ -134,6 +113,27 @@ footer {
 }
 
 
+ul li{
+    display: inline;
+    margin: 1em;
+  }
+
+p {
+    font-size: 1.2em;
+}
+
+hr {
+    margin-top: 2em;
+}
+
+footer {
+    margin-top: 5em;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
 
 /*
 projects page
@@ -148,7 +148,7 @@ projects page
 }
 
 .project_example {
-    width: 60%;
+    max-width: 80%;
     border-radius: 3%;
     padding: 1.5em;
 
