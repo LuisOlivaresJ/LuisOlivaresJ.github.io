@@ -58,8 +58,14 @@
                     <p>
                         Dosepy is intended to be an accessible tool for medical physicist in radiation oncology to perform patient-specific dose verification based on film measurements.
                     </p>
+                    <h4>Technologies</h2>
                     <p>
-                        The software works with scanned films (images in TIFF format) and a DICOM file (typically exported from a treatment planning system). A 2D gamma analysis can be performed in order to evaluate the similarity between the measured (scanned film) and the planed (DICOM file) dose distributions.
+                        <ol>
+                            <li>Image data manipulation and segmentation with <strong>Numpy</strong> and <strong>scikit-image</strong>.</li>
+                            <li>Interactive visualization with <strong>Matplotlib</strong>.</li>
+                            <li>Graphical user interface with <strong>PySide6</strong></li>
+                        </ol>
+                        
                     </p>
                     <hr>
                 </section>
@@ -67,7 +73,7 @@
                 <section>
                     <h2>Pyportal</h2>
                     <p>
-                        Pyportal is an app for performing <a href="https://www.aapm.org/pubs/reports/detail.asp?docid=278">TG-307</a> quality assurance (QA) tests for routine QA of (R) Varian EPID systems.
+                        Pyportal is a desktop app for performing <a href="https://www.aapm.org/pubs/reports/detail.asp?docid=278">TG-307</a> quality assurance (QA) tests for routine QA of (R) Varian EPID systems.
                     </p>
                     <div class="grid-item-name">
                         <form action="https://github.com/LuisOlivaresJ/Pyportal">
@@ -86,14 +92,14 @@
 
                     </figure>
                     <p>
-                        <strong>Features</strong>
+                        <h4>Technologies</h4>
                     </p>
-
-
-                    <ul>
-                        <li>SQL database storage for constancy analysis.</li>
-                        <li>One-click fast test assessment.</li>
-                    </ul>
+                    <p>
+                        <ol>
+                            <li>SQL database storage for constancy analysis with <strong>SQLite</strong>.</li>
+                            <li>DICOM RT image analisys with <strong>Pylinac</strong></li>
+                        </ol>
+                    </p>
 
                     <hr>
                 </section>
@@ -143,6 +149,11 @@
                         <li>
                             <a href="https://pylinac.readthedocs.io/en/latest/">
                                 <img src="https://storage.googleapis.com/pylinac_demo_files/Pylinac-GREEN.png" alt="pylinac_logo" class="open_source_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://quaac.readthedocs.io/en/latest/index.html" style="color: #2eb82e; font-size: 1.5em;">
+                                <strong>QuAAC</strong>
                             </a>
                         </li>
                     </ul>
