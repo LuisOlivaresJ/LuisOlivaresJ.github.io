@@ -3,7 +3,7 @@ a {
 }
 
 body {
-    background-color: #ebfaeb;
+    background-color: #abd4ab;
 }
 
 h1 {
@@ -19,6 +19,21 @@ h2 {
 h3 {
     font-size: 3em;
     color: #2eb82e;
+}
+
+h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+section {
+    margin-top: 2em;
+}
+
+figcaption {
+    font-size: 1.1em;
+    color:rgba(0, 0, 0, 0.8);
+    padding: 3px;
 }
 
 .main_container {
@@ -82,6 +97,7 @@ h3 {
     grid-template-columns: 300px auto;
     margin-top: 7em;
     margin-bottom: 7em;
+    height: 100%;
 }
 
 #body-div {
@@ -180,4 +196,19 @@ projects page
 
 .button-project:hover {
     background-color: #53c653;
+}
+
+.icon-nav {
+    text-align: left;
+}
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+figure {
+    text-align: center;
 }
